@@ -88,6 +88,7 @@ const login = (req, res) => {
               expiresIn: "36h",
             }
           );
+          console.log("Generated token:", token);
           return res.status(200).json({
             message: "Authentication successful",
             token: token,
@@ -101,6 +102,7 @@ const login = (req, res) => {
       });
     })
     .catch((err) => {
+      console.error("An error occurred during login:", err);
       res.status(500).json({
         message: "An error occurred",
         error: err,

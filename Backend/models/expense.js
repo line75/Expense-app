@@ -1,9 +1,13 @@
-const mongoose = require('mongoose');
-const Schema = require('mongoose');
+const { mongoose, Schema } = require('mongoose');
 const ModelIncrement = require('./increment.js');
 
 
 const expenseSchema = mongoose.Schema({
+     id: {
+        type: Number, 
+        unique: true,
+        // autoIncrement: true
+    },
     user_id: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',
@@ -22,9 +26,12 @@ const expenseSchema = mongoose.Schema({
         maxLength: 255,
         required: true
     },
-    description: String,
+    description: {
+        type: String,
+        maxLength: 255,
+    },
     date: {
-        type: 'Date',
+        type: Date
     },
 }, { timestamps: true });
 

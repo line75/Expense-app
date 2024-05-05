@@ -4,6 +4,9 @@ require('dotenv').config();
 const userRoute = require('./routes/user.js');
 const expenseRoute = require('./routes/expense.js');
 const authRoute = require('./routes/auth.js');
+const query1Route = require('./routes/query1.js');
+const query2Route = require('./routes/query2.js');
+const query3Route = require('./routes/query3.js');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const morgan = require('morgan');
@@ -34,6 +37,14 @@ app.use(cors());
 // user and expense endpoints.
 app.use('/profile', userRoute)
 app.use('/expense', expenseRoute)
+
+// expense query endpoint.
+app.use('/expenses/category', query1Route);
+
+// expense query endpoint for keywords.
+app.use('/expenses/keyword', query2Route);
+
+app.use('/expenses/date', query3Route);
 
 // login and register.
 app.use('/auth', authRoute);
