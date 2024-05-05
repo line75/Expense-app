@@ -1,0 +1,8 @@
+# Node packages
+node_modules
+
+# Package-lock dependencies
+package-lock.json
+
+# Environment dependencies
+.env
