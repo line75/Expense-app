@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 4000;
 
 async function connect() {
     try { 
-        await mongoose.connect('mongodb+srv://deosundeola:deol@expense.sazrrv3.mongodb.net/?retryWrites=true&w=majority')
+        await mongoose.connect(process.env.URL)
         console.log('connected to Mongodb database');   
     } catch (err) {
         console.log(`No Mongoose connection: ${err.message}`);
