@@ -8,6 +8,6 @@ router.get('/user', authenticate, expenseController.readExpenses); //* */ testin
 router.get('/:id', authenticate, expenseController.readExpenseById);//* */ testing {{url}}/expense/:id -> get
 router.delete('/', authenticate, expenseController.deleteExpense); // testing {{url}}/expense/id={{id}} -> delete
 router.post('/:id', authenticate, expenseController.createExpense) //* */ testing: {{url}}/expenses/id -> create 
-router.put('/', authenticate, expenseController.updateExpense) //* * testing: {{url}}/expenses/id={{id}} -> update
+router.put('/', authenticate, expenseController.updateExpense) //* * testing: {{url}}/expense/id={{id}} -> update
 
 module.exports = router;
