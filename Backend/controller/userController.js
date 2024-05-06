@@ -4,7 +4,7 @@ const validateUser = require('../middleware/validation.js');
 
 const readUsers = async (req, res, next) => {
     try {
-        const users = await User.find();
+        const users = await User.find().select('-password');
         if (users.length > 0) {
             res.status(200).json({users});
         } else {
@@ -17,7 +17,7 @@ const readUsers = async (req, res, next) => {
 
 const readUserById = async (req, res, next) => {
     try {
-        const user = await User.findOne({id: req.params.id});
+        const user = await User.findOne({id: req.params.id}).select('-password');
         if (user) {
             res.status(200).json({user: user});
         } else {
@@ -39,7 +39,7 @@ const updateUserById = async (req, res, next) => {
             id,
             { $set: req.body },
             { new: true } 
-        );
+        ).select('-password');
         if (updatedUser) {
             res.status(200).json({updatedUser: updatedUser});
         } else {

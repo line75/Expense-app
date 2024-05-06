@@ -1,6 +1,6 @@
 // This defines the endpoint for user.
 const express = require('express');
-const UserController = require('../controller/userController.js')
+const UserController = require('../controller/UserController.js')
 const authenticate = require('../middleware/authenticate.js');
 const specialToken = require('../middleware/auth.js');
 
