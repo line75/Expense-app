@@ -1,4 +1,5 @@
 # Xpense Tracker App
+![Xpense Tracker](https://happay.com/blog/wp-content/uploads/sites/12/2022/08/expense-categories.webp)
 ## The Xpense Tracker Application is a simple web application designed to help users keep track of their expenses. Users can log their expenses, categorize them, and view their expense history.
 
 ## Table of Contents
@@ -9,7 +10,6 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-
 
 # Features
 1. **Expense Logging**: Users can log their expenses by providing details such as name, amount, category, and description.
