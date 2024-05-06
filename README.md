@@ -55,11 +55,13 @@
     http://127.0.0.1:5000
     ```
 # Usage
+![Usage](https://grammarist.com/wp-content/uploads/Usage-in-English-Grammar-List-of-Examples-2.png)
 - **Logging Expenses**: Navigate to the appropriate section of the application to log your expenses. Provide details such as name, amount, category, and description.
 - **Filtering Expenses**: Use the category filter option to view expenses based on specific categories.
 - **Viewing Expense History**: Access the expense history section to view a list of all logged expenses.
 
 # Contributing
+![Contributing](https://images.squarespace-cdn.com/content/v1/5e957a3497df352a10e04d84/400d22bb-b17a-46d4-ad03-2a0b4b497f3d/Whats+your+unique+contribution.png)
 ## Contributions to the Expense Tracker App are welcome! To contribute:
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
@@ -68,4 +70,5 @@
 - Submit a pull request.
 
 # License
+![License](https://miro.medium.com/v2/resize:fit:1024/1*dEy_wxit00QBXp58H-YRRQ.png)
 This project is licensed under the [MIT License] - see the (./LICENSE) file for details.
