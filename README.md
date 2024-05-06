@@ -6,6 +6,9 @@
 - [Feature](#features)
 - [Technology Used](#technologies-used)
 - [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 
 # Features
@@ -63,4 +66,4 @@
 - Submit a pull request.
 
 # License
-This project is licensed under the [MIT License] - see the (./LICENSE file for details.
+This project is licensed under the [MIT License] - see the (./LICENSE) file for details.
