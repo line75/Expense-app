@@ -18,8 +18,8 @@
 4. **Expense History**: Users can view their expense history, including details such as name, amount, category, and date.
 5. **Incremental ID Generation**: Each expense is assigned a unique incremental ID for easy reference.
 
-## Technologies Used.
-# Backend Implementations Only.
+# Technologies Used.
+## Backend Implementation Only.
 - Node.js: Server-side JavaScript runtime environment.
 - Express.js: Web application framework for Node.js used for routing and middleware handling.
 - MongoDB: NoSQL database used to store expense data.
