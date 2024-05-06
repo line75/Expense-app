@@ -2,7 +2,7 @@
 ## The Xpense Tracker Application is a simple web application designed to help users keep track of their expenses. Users can log their expenses, categorize them, and view their expense history.
 
 ## Table of Contents
-- [Xpense Tracker: Xpense Tracker.]
+- [Xpense Tracker](#xpense-tracker-app)
 - [Feature](#features)
 - [Technology Used](#technologies-used)
 - [Getting Started](#getting-started)
