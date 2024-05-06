@@ -12,6 +12,7 @@
 - [License](#license)
 
 # Features
+![Feature](https://t4.ftcdn.net/jpg/03/03/55/51/360_F_303555158_0h7YQZePL54n1UFE0Y5u4xqLSvHklqwc.jpg)
 1. **Expense Logging**: Users can log their expenses by providing details such as name, amount, category, and description.
 2. **Category Filtering**: Users can filter their expenses based on categories to view specific types of expenses.
 3. **User Authentication**: Users must authenticate themselves to access the application and log their expenses.
@@ -29,6 +30,7 @@
 
 
 # Getting Started
+![Get Started](https://www.lean.org/wp-content/uploads/2020/11/924_large.png)
 ## To get started with the Expense Tracker App, follow these steps:
 1. Clone the repository: `git clone [repository]-url`
     - Open the terminal and run:
