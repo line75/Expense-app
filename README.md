@@ -68,7 +68,3 @@
 - Make your changes.
 - Test your changes.
 - Submit a pull request.
-
-# License
-![License](https://miro.medium.com/v2/resize:fit:1024/1*dEy_wxit00QBXp58H-YRRQ.png)
-This project is licensed under the [MIT License] - see the (./LICENSE) file for details.
