@@ -52,7 +52,7 @@
     ```
     http://127.0.0.1:5000
     ```
-## Usage
+# Usage
 - **Logging Expenses**: Navigate to the appropriate section of the application to log your expenses. Provide details such as name, amount, category, and description.
 - **Filtering Expenses**: Use the category filter option to view expenses based on specific categories.
 - **Viewing Expense History**: Access the expense history section to view a list of all logged expenses.
